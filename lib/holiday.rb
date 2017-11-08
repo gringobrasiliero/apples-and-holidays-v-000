@@ -64,7 +64,7 @@ puts "#{season_list}:"
 holiday.each do |holiday, supplies|
   holiday_list = holiday.to_s.split("_").map(&:capitalize).join(" ")
   item_list = supplies.join(", ")
-  puts "#{holiday_list}: #{item_list}"
+  puts "  #{holiday_list}: #{item_list}"
 end
 end
 end
